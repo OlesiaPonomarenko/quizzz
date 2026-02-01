@@ -8,3 +8,12 @@ body {
     height: 100vh;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+form {
+    background-color: #fff;
+    width: 600px;
+    overflow: hidden;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
