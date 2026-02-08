@@ -6,7 +6,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-size: 20px;
 }
 
 form {
@@ -16,4 +17,31 @@ form {
     padding: 100px;
     display: flex;
     flex-wrap: wrap;
+}
+
+label {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.question {
+    padding: 30px;
+}
+
+.btn {
+    background-color: #af58d4;
+    color: #fff;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+#show {
+    margin: auto;
+    margin-top: 10px;
 }
